@@ -1,4 +1,4 @@
-package br.cursojsf.bean;
+package br.com.cursojsf.bean;
 
 import java.io.Serializable;
 
