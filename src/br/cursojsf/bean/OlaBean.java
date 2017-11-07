@@ -2,6 +2,11 @@ package br.cursojsf.bean;
 
 import java.io.Serializable;
 
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.RequestScoped;
+
+@ManagedBean
+@RequestScoped
 public class OlaBean implements Serializable {
 
 	/**
