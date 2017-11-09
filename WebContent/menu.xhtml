@@ -5,11 +5,17 @@
 	  xmlns:h="http://java.sun.com/jsf/html"
 	  xmlns:ui="http://java.sun.com/jsf/facelets"
 	  >
-
+<h:head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	<title><ui:insert>Titulo modificado</ui:insert></title>
+</h:head>
 	<h:body bgcolor="white">
-		<div id="topo">
-			<ui:composition template="modelo.xhtml"/>
-		</div>
+		<ui:composition>
+			<ul>
+				<li><h:link outcome="inicio" value="Primeiro"/></li>
+				<li><h:link outcome="primeiraFuncao.jsf" value="Primeira Função"/></li>
+			</ul>
 		
+		</ui:composition>
 	</h:body>
 </html>
