@@ -26,7 +26,7 @@
 			<h:outputLabel value="#{msg.lbDataNascimento}:" for="nascimento">
 			<h:inputText id="nascimento"  value="#{cadastroBean.dataNascimento}"  >
 		    <f:convertDateTime pattern="dd/MM/yyyy" timeZone="GMT-2"/>
-		    <f:validateLength minimum="10" maximum="10"/>
+		    <f:validateLength maximum="11"/>
 			</h:inputText>
 			</h:outputLabel>
 			<br/>
